@@ -1,0 +1,137 @@
+/* Normalizer */
+*{
+    font-family: 'anakinmonoregular';
+    text-decoration: none;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    align-items: center;
+    padding: 6vh 1vw;
+    padding-top: 100px;
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8vw;
+    width: 8vw;
+    height: 58px;
+    padding: 10px;
+    background-color: rgb(117,127,129);
+}
+
+.logoImperio{
+    width: 2.5vw;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Star Wars', sans-serif;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    background-color: rgb(174,187,190);
+    border: 1px solid rgb(117,127,129);
+    gap: 0.8vw;
+    width: 8vw;
+    height: 6vh;
+    padding: 10px;
+    border-right: none;
+}
+
+.headerSearch{
+    position: relative;
+}
+
+.inputHeader{
+    padding: 5px 6px;
+    width: 50vw;
+    height: 6vh;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    padding-top: 12px;
+    border-right: none;
+    color: rgb(144, 150, 151);
+
+}
+
+.inputHeader::placeholder{
+    color: rgba(144, 150, 151, 0.527);
+}
+
+.headerSearch i{
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    color: rgb(117,127,129);
+    font-size: 20px;
+}
+
+.botoncontacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    color: rgb(144, 150, 151);
+    gap: 0.8vw;
+    width: 8vw;
+    height: 6vh;
+    padding-top: 5px;
+}
+
+
+@media (min-width: 360px) and (max-width: 480px)
+{
+
+    .containerHeader{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px;
+    }
+    
+    
+    .headerSearch{
+        display: none;
+    }
+
+    .headerTitle{
+
+    }
+
+    .botones{
+        display: flex;
+        gap: 1vw;
+        width: 5vw;
+    }
+
+    .boton{
+        display: flex;
+        width: 10vw;
+        width: 20vw;
+    }
+
+    .imageniconos{
+        font-size: 2px;
+    }
+
+
+
+
+}

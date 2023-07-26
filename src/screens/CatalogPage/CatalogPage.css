@@ -1,0 +1,27 @@
+.containerCard{
+    background-color: rgb(56, 56, 56);
+    padding: 5vw;
+} 
+
+.body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 300vh;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    padding: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    gap: 15vh;
+}
+
+@media (min-width: 360px) and (max-width: 480px)
+{
+    .body{
+        background-color: blueviolet;
+        flex-wrap: wrap;
+        max-width: 300px;
+
+    }
+}

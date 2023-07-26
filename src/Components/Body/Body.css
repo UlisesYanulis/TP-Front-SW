@@ -1,0 +1,89 @@
+.cuerpo{
+    display: flex;
+    position: relative ;
+    justify-content: center;
+    align-items: center;
+    padding: 20vw;
+    background-color: rgb(56, 56, 56);
+}
+
+.boba{
+    position: absolute;
+    left: 275px;
+    top: 218px;
+    color: rgb(144, 150, 151);
+}
+
+.new{
+    font-size: 350px;
+    position: absolute;
+    font-family: 'tt_hovesbold';
+    color: white;
+    text-shadow: 1px 1px 100px rgb(255, 0, 0);
+    left: 400px;
+    top: 110px;
+}
+
+.nave{
+    position: absolute;
+    right: 200px;
+    width: 35vw;
+}
+
+.fondo{
+    position: absolute;
+    right: 200px;
+    width: 35vw;
+}
+
+.botonProducto{
+    position: absolute;
+    left: 7vw;
+    top: 63vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(117,127,129);
+    color: rgb(144, 150, 151);
+    gap: 0.8vw;
+    width: 8vw;
+    height: 6vh;
+    padding-top: 5px;
+    font-size: 15px;   
+}
+
+@media (min-width: 360px) and (max-width: 480px)
+{
+    .new{
+        position: static;
+        width: 100%;
+        font-size: 100px;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+
+    }
+
+    .boba{
+        position: static;
+    }
+
+    .botonProducto{
+        position: static;
+        width: 50vw;
+    }
+
+    .fondo{
+        display: none;
+    }
+
+    .nave{
+        position: static;
+    }
+
+
+}

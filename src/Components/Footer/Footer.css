@@ -1,0 +1,58 @@
+.containerFooter{
+    background-color: rgb(56, 56, 56);
+    color: rgb(144, 150, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    gap: 10vw;
+    border-top: 1px solid rgb(117,127,129);
+}
+
+.constructor{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5.5vh;
+}
+
+.constructorText{
+    color: rgb(223, 224, 224);
+}
+
+.direction{
+    color: rgba(255, 255, 255, 0.219);
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2vh;
+}
+
+.columna4{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2vh;
+}
+
+.contenedorcolumnamedio{
+    display: flex;
+}
+
+@media (min-width: 360px) and (max-width: 480px)
+{
+    .containerFooter{
+        flex-direction: column;
+        gap: 10vh;
+        align-items: baseline;
+    }
+
+    
+
+
+
+    
+}
